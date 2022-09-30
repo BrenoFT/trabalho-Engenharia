@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{clear: both;}
+
+header{
+    width: 100%;
+    padding: 40px;
+    background-color: #FF8C00;
+}
+
+.cabecalho{
+    color: #ccc;
+    font-size: 32px;
+    text-align: center;
+}
+
+.campos{
+    width: 100%;
+    min-height: 600px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.w33{
+    width: 33.3%;
+    margin: 40px 0;
+    padding: 40px;
+    float: left;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #FF8C00;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.w33:hover{
+    background-color: #f8b35e;
+}
+
+.w33 p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.w33 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.w50{
+    width: 50%;
+    margin: 40px 0;
+    padding: 40px;
+    float: left;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #FF8C00;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.w50:hover{
+    background-color: #f8b35e;
+}
+
+.w50 p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.w50 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.w100{
+    width: 100%;
+    margin: 40px 0;
+    padding: 40px;
+    float: left;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #FF8C00;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.w100:hover{
+    background-color: #f8b35e;
+}
+
+.w100 p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.w100 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.buscar{
+    text-align: center;
+    padding: 40px;
+}
+
+.buscar input{
+    width: 500px;
+    padding: 15px;
+}
+
+.campos-car{
+    width: 100%;
+    min-height: 600px;
+    padding: 40px;
+    margin: 10px 0;
+}
+
+.w33-car{
+    width: 33.3%;
+    padding: 30px;
+    float: left;
+    border: 4px solid rgb(255, 255, 255);
+    background-color: #FF8C00;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.car{
+    width: 330px;
+    height: 230px;
+    background-image: url('../imagens/320i.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-car{
+    color:aliceblue;
+    padding: 10px;
+}
+
+.info-car button{
+    width: 200px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: bisque;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.info-car a{
+    text-decoration: none;
+    color:black;
+}
+
+.contato-line{
+    padding: 80px;
+}
+
+.line-titulo{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+
+}
+
+.ln1{
+    position: absolute;
+    height: 3px;
+    background: black;
+    width: 100%;
+    top: 15px;
+}
+
+.ln1 h2{
+    position: relative;
+    top: -13px;
+    background-color: white;
+    padding: 0 20px;
+    display: inline;
+    font-size: 28px;
+    font-style: italic;
+}
+
+section.formulario{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.container-formulario .form-100 input[type=text]{
+    width: 500px;
+    height: 50px;
+}
+
+.form-100{
+    padding: 10px 0;
+}
+
+.form-100 input[type=file]{
+    width: 500px;
+}
+
+.formu-50{
+    margin: 20px 0px;
+}
+
+.container-formulario .formu-50 input[type=email]{
+    width: 248px;
+    height: 50px;
+}
+
+.container-formulario .formu-50 input[type=tel]{
+    width: 248px;
+    height: 50px;
+
+}
+
+.text-area{
+    padding: 10px;
+}
+
+.container-formulario .text-area input{
+    width: 500px;
+    height: 100px;
+
+}
+
+.botao-formulario{
+    padding: 60px;
+}
+
+.container-formulario .botao-formulario input[type=submit]{
+    padding: 10px 60px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    border: none;
+    border-bottom: 4px solid #B11E1E;
+    background-color: #EB2D2D;
+    cursor: pointer;
+} 
+
+.informacao{
+    width: 100%;
+    text-align: center;
+}
+
+.imgCar{
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    background-image: url(../imagens/320i.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.infoCar{
+    text-align: center;
+    position: relative;
+}
+
+.infoCar h2{
+    margin: 10px;
+}
+
+span{
+    color: gray;
+}
